@@ -3,6 +3,7 @@
 #include "Autor.h"
 #include <iostream>
 using namespace std;
+
 class Album {
 private:
     string nombre;
@@ -19,11 +20,11 @@ public:
         return nombre;
     }
 
-    void agregarCancion(const Cancion& cancion) {
+    void agregarCancion(Cancion& cancion) {
         canciones.agregar(cancion);
     }
 
-    void mostrarAlbum() const {
+    void mostrarAlbum() {
         cout << "Album: " << nombre << endl;
 
         // Mostrar canciones agrupadas por autor

@@ -1,2 +1,3 @@
 C:\Users\aldoh\OneDrive\Desktop\3er ciclo - UPC\Menu\Menu\x64\Debug\Menu.vcxproj.AssemblyReference.cache
 C:\Users\sebas\Downloads\Menu\Menu\Menu\x64\Debug\Menu.vcxproj.AssemblyReference.cache
+C:\Users\sebas\Desktop\TB1\202501-TB1\Menu\Menu\x64\Debug\Menu.vcxproj.AssemblyReference.cache

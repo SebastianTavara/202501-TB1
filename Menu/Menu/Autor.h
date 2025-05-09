@@ -2,50 +2,9 @@
 #include <iostream>
 #include <string>
 #include "Cancion.h"
+#include "Lista.h"
+
 using namespace std;
-
-// Nodo genérico
-template <typename T>
-class Nodo {
-public:
-    T dato;
-    Nodo<T>* siguiente;
-
-    Nodo(T dato) {
-        this->dato = dato;
-        this->siguiente = nullptr;
-    }
-};
-
-// Lista genérica
-template <typename T>
-class Lista {
-protected:
-    Nodo<T>* cabeza;
-
-public:
-    Lista() {
-        cabeza = nullptr;
-    }
-
-    void agregar(const T& dato) {
-        Nodo<T>* nuevo = new Nodo<T>(dato);
-        if (!cabeza) {
-            cabeza = nuevo;
-        }
-        else {
-            Nodo<T>* temp = cabeza;
-            while (temp->siguiente) {
-                temp = temp->siguiente;
-            }
-            temp->siguiente = nuevo;
-        }
-    }
-
-    Nodo<T>* getCabeza() const {
-        return cabeza;
-    }
-};
 
 // Autor actualizado para usar una lista de Cancion
 class Autor {
@@ -76,7 +35,7 @@ public:
         canciones.agregar(nueva);
     }
 
-    void mostrarCanciones() const {
+    void mostrarCanciones() {
         cout << "Autor: " << nombre << " | Canciones: ";
         Nodo<Cancion>* actual = canciones.getCabeza();
         while (actual != nullptr) {
@@ -87,7 +46,7 @@ public:
         cout << endl;
     }
 
-    void mostrarDatos() const {
+    void mostrarDatos() {
         // Contamos cuántas canciones tiene
         int numCanciones = 0;
         Nodo<Cancion>* actual = canciones.getCabeza();

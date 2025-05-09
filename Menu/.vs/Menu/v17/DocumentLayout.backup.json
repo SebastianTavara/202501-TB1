@@ -1,25 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\",
+  "WorkspaceRootPath": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Album.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Album.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Album.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Cancion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Cancion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Controladora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Controladora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Autor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Autor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Autor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cancion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Cancion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Pila.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Pila.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Cola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Lista.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Lista.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Nodo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Nodo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Controladora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Controladora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,61 +55,116 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Autor.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Autor.h",
-              "RelativeDocumentMoniker": "Menu\\Autor.h",
-              "ToolTip": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Autor.h",
-              "RelativeToolTip": "Menu\\Autor.h",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAwL4AAAAFAAAAAAAAAA==",
+              "Title": "Pila.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Pila.h",
+              "RelativeDocumentMoniker": "Menu\\Pila.h",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Pila.h",
+              "RelativeToolTip": "Menu\\Pila.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-06T22:53:25.633Z"
+              "WhenOpened": "2025-05-09T22:45:28.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cola.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cola.h",
+              "RelativeDocumentMoniker": "Menu\\Cola.h",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cola.h",
+              "RelativeToolTip": "Menu\\Cola.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T22:49:09.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lista.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Lista.h",
+              "RelativeDocumentMoniker": "Menu\\Lista.h",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Lista.h",
+              "RelativeToolTip": "Menu\\Lista.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T05:08:12.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Nodo.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Nodo.h",
+              "RelativeDocumentMoniker": "Menu\\Nodo.h",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Nodo.h",
+              "RelativeToolTip": "Menu\\Nodo.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T04:56:32.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Controladora.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Controladora.h",
-              "RelativeDocumentMoniker": "Menu\\Controladora.h",
-              "ToolTip": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Controladora.h",
-              "RelativeToolTip": "Menu\\Controladora.h",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAHQAAAAFAAAAAAAAAA==",
+              "Title": "Cancion.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cancion.h",
+              "RelativeDocumentMoniker": "Menu\\Cancion.h",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cancion.h",
+              "RelativeToolTip": "Menu\\Cancion.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-06T22:54:17.265Z"
+              "WhenOpened": "2025-05-06T22:53:48.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Autor.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Autor.h",
+              "RelativeDocumentMoniker": "Menu\\Autor.h",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Autor.h",
+              "RelativeToolTip": "Menu\\Autor.h",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAEQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-06T22:53:25.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Album.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Album.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Album.h",
               "RelativeDocumentMoniker": "Menu\\Album.h",
-              "ToolTip": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Album.h",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Album.h",
               "RelativeToolTip": "Menu\\Album.h",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAwE0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAiwBoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-06T22:54:02.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cancion.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Cancion.h",
-              "RelativeDocumentMoniker": "Menu\\Cancion.h",
-              "ToolTip": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Cancion.h",
-              "RelativeToolTip": "Menu\\Cancion.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Controladora.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Controladora.h",
+              "RelativeDocumentMoniker": "Menu\\Controladora.h",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Controladora.h",
+              "RelativeToolTip": "Menu\\Controladora.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-06T22:53:48.671Z"
+              "WhenOpened": "2025-05-06T22:54:17.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Menu.cpp",
-              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Menu.cpp",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Menu.cpp",
               "RelativeDocumentMoniker": "Menu\\Menu.cpp",
-              "ToolTip": "C:\\Users\\sebas\\Downloads\\Menu\\Menu\\Menu\\Menu.cpp",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Menu.cpp",
               "RelativeToolTip": "Menu\\Menu.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-06T22:53:09.734Z"
             }

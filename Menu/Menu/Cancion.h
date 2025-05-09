@@ -9,22 +9,25 @@ private:
     string autor;
 
 public:
-    Cancion() : nombre(""), autor("") {}
+    Cancion(){
+        this->nombre = " ";
+        this->autor = " ";
+    }
 
     Cancion(string nombre, string autor) {
         this->nombre = nombre;
         this->autor = autor;
     }
 
-    string getNombre() const {
+    string getNombre() {
         return nombre;
     }
 
-    string getAutor() const {
+    string getAutor() {
         return autor;
     }
 
-    void mostrar() const {
+    void mostrar() {
         cout << nombre;
     }
 };

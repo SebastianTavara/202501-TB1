@@ -1,7 +1,3 @@
-﻿  pch.cpp
-  AssemblyInfo.cpp
-  Menu.cpp
-  Generando código...
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+﻿  Menu.cpp
   AssemblyInfo.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
-  Menu.vcxproj -> C:\Users\sebas\Downloads\Menu\Menu\x64\Debug\Menu.exe
+  Menu.vcxproj -> C:\Users\sebas\Desktop\TB1\202501-TB1\Menu\x64\Debug\Menu.exe
