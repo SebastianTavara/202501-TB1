@@ -9,10 +9,6 @@ private:
     string autor;
 
 public:
-    Cancion(){
-        this->nombre = " ";
-        this->autor = " ";
-    }
 
     Cancion(string nombre, string autor) {
         this->nombre = nombre;
@@ -28,6 +24,7 @@ public:
     }
 
     void mostrar() {
-        cout << nombre;
+        cout << "\n" + nombre;
+        cout << "\n" + autor;
     }
 };

@@ -2,10 +2,15 @@
 #include "Autor.h"
 #include "Cancion.h"
 #include "Album.h"
+#include "ListaDeCanciones.h"
+#include "ListaDeAutores.h"
+
+// aun en modificacion
+
 class Controladora {
 private:
-    ListaAutores listaAutores;
-    ControladoraAlbum controlAlbum;
+
+    ListadeCanciones lista
 
 public:
     Controladora() : controlAlbum(&listaAutores) {}  // Pasamos la referencia de autores al controlador de álbumes

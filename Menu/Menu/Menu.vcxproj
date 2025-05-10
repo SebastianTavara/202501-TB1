@@ -132,6 +132,9 @@
     <ClInclude Include="Cola.h" />
     <ClInclude Include="Controladora.h" />
     <ClInclude Include="Lista.h" />
+    <ClInclude Include="ListaDeAlbum.h" />
+    <ClInclude Include="ListaDeAutores.h" />
+    <ClInclude Include="ListaDeCanciones.h" />
     <ClInclude Include="Nodo.h" />
     <ClInclude Include="Pila.h" />
   </ItemGroup>
