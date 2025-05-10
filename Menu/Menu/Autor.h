@@ -34,8 +34,8 @@ public:
         nombre = nuevoNombre;
     }
 
-    void agregarCancion(string nombreCancion) {
-        Cancion* nueva = new Cancion(nombreCancion, nombre);  // Usa el nombre del autor
+    void agregarCancion(string nombreCancion, int duracion) {
+        Cancion* nueva = new Cancion(nombreCancion, nombre, duracion);  // Usa el nombre del autor
         cancionesdelAutor->agregar(nueva);
     }
 

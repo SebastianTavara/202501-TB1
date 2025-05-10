@@ -42,19 +42,19 @@ public:
     }
 
     void interfazTextoMain() {
-        
+
         // titulo
         gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
-    
+
         clearColor();
         //opciones
-        
+
         // 1ra Columna
-        
+
         gotoxy(26, 9);  cout << "1. Mostrar todas las canciones";
         gotoxy(26, 11); cout << "2. Agregar cancion a cola";
         gotoxy(26, 12); cout << "   reproduccion";
-        gotoxy(26, 14); cout << "3. Reproducir siguiente cancion";
+        gotoxy(26, 14); cout << "3. Reproducir cola";
         gotoxy(26, 16); cout << "4. Ver historial";
         gotoxy(26, 18); cout << "5. Crear Album/Playlist";
 
@@ -65,14 +65,60 @@ public:
         gotoxy(61, 13); cout << "8. Mostrar opciones para autores";
         gotoxy(61, 15); cout << "9. Motrar opciones para albumes";
         gotoxy(61, 17); cout << "ESC. Salir";
+
+    }
+
+    void opcionesCanciones() {
+    
+        interfaz();
+
+        // title
+        gotoxy(48, 3); color(BRIGHT_CYAN); cout << "Opciones para canciones";
+
+        clearColor();
+
+        //Unica Columna
+        // el eje x de gotoxy es la mitad del ancho
+        // de pantalla menos la mitad del size de string
+        gotoxy(45, 9); cout << "1. Mostrar todas las canciones";
+        gotoxy(44, 11); cout << "2. Buscar por nombre de cancion";
+        gotoxy(50, 13); cout << "3. Buscar por autor";
+        gotoxy(50, 15); cout << "4. Eliminar cancion";
+        gotoxy(50, 17); cout << "5. Agregar cancion";
+        gotoxy(50, 19); cout << "6. Reproducir cancion";
+
+        int tecla = _getch();
+
+        switch (tecla)
+        {
+        case '1':
+
+            canciones.mostrarCanciones();
+
+            break;
+            
+        case '2': {
+            string titulo = " ";
+
+            cout << "Ingrese titulo de la cancion: ";
+            cin >> titulo;
+
+            canciones.buscarporTitulo(titulo);
+        
+            break;
+            }
+        default:
+            break;
+        }
+
     }
 
     void menu() {
-        
+
         bool salir = false;
-        
+
         while (!salir) {
-        
+
             clear();
             interfaz();
             interfazTextoMain();
@@ -92,14 +138,14 @@ public:
                 break;
 
             case '3': //Reproducir siguiente cancion
-                            
+
 
                 break;
 
-            case '4':
+            case '4': //Ver historial
 
-                
-            
+
+
                 break;
 
             case '5':
@@ -116,22 +162,24 @@ public:
                 albumes.agregarAlbum(nombreAlbum);
 
                 cout << "\nAlbum agregado correctamente";
-                
+
                 break;
             }
             case '7':
 
-                //Reproducir Playlist
+                //mostrar opciones para canciones
+
+                opcionesCanciones();
 
                 break;
-            
+
             case '8':
 
-                //Mostrar opciones para canciones
+                //Mostrar opciones para autores
 
                 break;
-            
-            case '9': // mostrar opciones para autores
+
+            case '9': // mostrar opciones para albumes
 
                 break;
 
@@ -139,19 +187,19 @@ public:
                 clear();
                 gotoxy(45, 14); color(BRIGHT_BLUE); cout << "Gracias por usar nuestra app!";
                 clearColor();
-                gotoxy(0, 29);
+                //gotoxy(0, 29);
                 salir = true;
-                
+
                 break;
             default:
                 break;
             }
-        
+
         }
 
     }
 
-private:
+
     //void ingresarDatosAutor() {
     //    string nombre, nacionalidad;
     //    int edad;

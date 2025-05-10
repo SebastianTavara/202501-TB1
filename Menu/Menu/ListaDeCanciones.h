@@ -34,7 +34,29 @@ public:
 	
 	}
 	//void agregarCancion(Cancion* cancion);
-	void buscarporTitulo(string titulo) {}
+	void buscarporTitulo(string titulo) {
+	
+		Nodo<Cancion*>*	temporal = canciones->getCabeza();
+
+		while (temporal != nullptr)
+		{
+			if (temporal->dato->getNombre() == titulo)
+			{
+				cout << "RESULTADO: " << endl;
+				cout << " AUTOR: " << temporal->dato->getAutor() << endl;
+				cout << " CANCION: " << temporal->dato->getNombre() << endl << endl;
+
+				return;
+			}
+			
+			temporal = temporal->siguiente;
+
+
+		}
+		
+		cout << "\nCancion no encontrada";
+
+	}
 	//void buscarporAutor(string autor);
 	//void eliminarCancion(string titulo);
 	//int contarCanciones();

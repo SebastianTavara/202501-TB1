@@ -1,17 +1,18 @@
 #pragma once
 
-#include "Cola.h"
+#include "Pila.h"
 #include "Cancion.h"
 
+// historial usando pila
 class Historial {
 
 private:
-	Cola<Cancion*>* historial;
+	Pila<Cancion*>* historial;
 	int numHistorial;
 public:
 	Historial() {
 	
-		this->historial = new Cola<Cancion*>();
+		this->historial = new Pila<Cancion*>();
 	
 	}
 
@@ -24,7 +25,7 @@ public:
 
 	void mostrar() {
 	
-		if (historial->esVacia()) {
+		if (historial->estaVacia()) {
 		
 			cout << "\nAUN NO SE HA ESCUCHADO NADA";
 			return;

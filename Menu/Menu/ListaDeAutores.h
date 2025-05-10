@@ -13,6 +13,9 @@ public:
     }
 
     void agregarAutor(Autor* autor) {
+
+
+
         autores->agregar(autor);
     }
 
@@ -36,7 +39,7 @@ public:
     }
 
 
-    void agregarCancion(string nombreAutor, string nombreCancion) {
+    void agregarCancion(string nombreAutor, string nombreCancion, int duracion) {
         
         Nodo<Autor*>* actual = autores->getCabeza();  // Nodo con punteros
        
@@ -44,7 +47,7 @@ public:
 
             if (actual->dato->getNombre() == nombreAutor) {  // Usamos -> porque 'dato' es un puntero
                 
-                actual->dato->agregarCancion(nombreCancion);  // Agregar la canción al autor
+                actual->dato->agregarCancion(nombreCancion, duracion);  // Agregar la canción al autor
                 cout << "Canción agregada correctamente.\n";
                 return;
             }

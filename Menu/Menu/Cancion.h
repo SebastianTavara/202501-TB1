@@ -7,12 +7,14 @@ class Cancion {
 private:
     string nombre;
     string autor;
+    int duracion;
 
 public:
 
-    Cancion(string nombre, string autor) {
+    Cancion(string nombre, string autor, int duracion) {
         this->nombre = nombre;
         this->autor = autor;
+        this->duracion = duracion;
     }
 
     string getNombre() {
