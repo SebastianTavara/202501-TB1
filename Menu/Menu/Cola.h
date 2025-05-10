@@ -30,7 +30,6 @@ bool Cola<T>::esVacia() {
 template<class T>
 void Cola<T>::showElements()
 {
-
 	Nodo<T>* temp;
 	temp = frente;
 

@@ -63,7 +63,7 @@ public:
         while (actual != nullptr) {
 
             if (actual->dato->getNombre() == nombreAutor) { 
-                actual->dato->mostrarCanciones(); 
+                actual->dato->mostrarCancionesdeAutor(); 
                 return;
             }
             actual = actual->siguiente;

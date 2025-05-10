@@ -1,12 +1,12 @@
 #pragma once
 #include "Album.h"
 
-class ListadeAlbum {
+class ListaAlbum {
 private:
     Lista<Album*>* albumes;
 
 public:
-    ListadeAlbum() {
+    ListaAlbum() {
 
         albumes = new Lista<Album*>();
 

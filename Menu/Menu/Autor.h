@@ -12,7 +12,7 @@ private:
     int edad;
     string nacionalidad;
     int numAlbumes;
-    Lista<Cancion>* cancionesdelAutor; 
+    Lista<Cancion*>* cancionesdelAutor; 
 
 public:
 
@@ -22,7 +22,7 @@ public:
         this->edad = edad;
         this->nacionalidad = nacionalidad;
         this->numAlbumes = numAlbumes;
-        cancionesdelAutor = new Lista<Cancion>();
+        cancionesdelAutor = new Lista<Cancion*>();
 
     }
 
@@ -35,15 +35,15 @@ public:
     }
 
     void agregarCancion(string nombreCancion) {
-        Cancion nueva(nombreCancion, nombre);  // Usa el nombre del autor
+        Cancion* nueva = new Cancion(nombreCancion, nombre);  // Usa el nombre del autor
         cancionesdelAutor->agregar(nueva);
     }
 
-    void mostrarCanciones() {
+    void mostrarCancionesdeAutor() {
         cout << "Autor: " << nombre << " | Canciones: ";
-        Nodo<Cancion>* actual = cancionesdelAutor->getCabeza();
+        Nodo<Cancion*>* actual = cancionesdelAutor->getCabeza();
         while (actual != nullptr) {
-            actual->dato.mostrar();
+            actual->dato->mostrar();
             if (actual->siguiente != nullptr) cout << " | ";
             actual = actual->siguiente;
         }
@@ -53,7 +53,7 @@ public:
     void mostrarDatos() {
         // numero de canciones
         int numCanciones = 0;
-        Nodo<Cancion>* actual = cancionesdelAutor->getCabeza();
+        Nodo<Cancion*>* actual = cancionesdelAutor->getCabeza();
         while (actual != nullptr) {
             numCanciones++;
             actual = actual->siguiente;
@@ -63,7 +63,7 @@ public:
             << " | #Albumes: " << numAlbumes << " | #Canciones: " << numCanciones << endl;
     }
 
-    Lista<Cancion>* getCanciones() {
+    Lista<Cancion*>* getCanciones() {
         return cancionesdelAutor;
     }
 

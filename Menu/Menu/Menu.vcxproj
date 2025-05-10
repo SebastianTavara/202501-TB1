@@ -130,13 +130,16 @@
     <ClInclude Include="Autor.h" />
     <ClInclude Include="Cancion.h" />
     <ClInclude Include="Cola.h" />
+    <ClInclude Include="ColadeReproduccion.h" />
     <ClInclude Include="Controladora.h" />
+    <ClInclude Include="Historial.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="ListaDeAlbum.h" />
     <ClInclude Include="ListaDeAutores.h" />
     <ClInclude Include="ListaDeCanciones.h" />
     <ClInclude Include="Nodo.h" />
     <ClInclude Include="Pila.h" />
+    <ClInclude Include="upc.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />

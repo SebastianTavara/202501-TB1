@@ -1,123 +1,215 @@
 #pragma once
+
+#include <conio.h>
+#include "upc.h"
 #include "Autor.h"
 #include "Cancion.h"
 #include "Album.h"
 #include "ListaDeCanciones.h"
 #include "ListaDeAutores.h"
+#include "ListaDeAlbum.h"
 
 // aun en modificacion
 
 class Controladora {
 private:
-
-    ListadeCanciones lista
+    ListaCanciones canciones;
+    ListaAutores autores;
+    ListaAlbum albumes;
 
 public:
-    Controladora() : controlAlbum(&listaAutores) {}  // Pasamos la referencia de autores al controlador de álbumes
+    Controladora() {
+    
+    
+    }
 
-    void menu() {
-        int opcion;
+    // Solo la parte grafica sin texto
+    void interfaz() {
+    
+        for (int k = 0; k < 2; ++k) {
 
-        do {
-            cout << "\n===== MENU PRINCIPAL =====" << endl;
-            cout << "1. Ingresar Datos Autor" << endl;
-            cout << "2. Mostrar Datos de un Autor" << endl;
-            cout << "3. Ingresar Cancion" << endl;
-            cout << "4. Mostrar Todas las Canciones" << endl;
-            cout << "5. Generar Album" << endl;
-            cout << "6. Mostrar Canciones Favoritas (Albums)" << endl;
-            cout << "7. Salir" << endl;
-            cout << "Seleccione una opcion: ";
-            cin >> opcion;
+            for (int i = 0; i < 70; ++i) {
 
-            switch (opcion) {
-            case 1:
-                ingresarDatosAutor();
-                break;
-            case 2:
-                mostrarDatosAutor();
-                break;
-            case 3:
-                ingresarCancion();
-                break;
-            case 4:
-                mostrarCanciones();
-                break;
-            case 5:
-                controlAlbum.agregarAlbum();
-                break;
-            case 6:
-                controlAlbum.mostrarAlbumes();
-                break;
-            case 7:
-                cout << "Saliendo del programa..." << endl;
-                break;
-            default:
-                cout << "Opcion invalida. Intente de nuevo.\n";
+                gotoxy(25 + i, 6 + k * 18); color(DARK_GREEN); cout << "-";
             }
 
-        } while (opcion != 7);
+            gotoxy(25, 6 + k * 18); cout << "+";
+            gotoxy(60, 6 + k * 18); cout << "+";
+            gotoxy(94, 6 + k * 18); cout << "+";
+        }
+        clearColor();
+
+    }
+
+    void interfazTextoMain() {
+        
+        // titulo
+        gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
+    
+        clearColor();
+        //opciones
+        
+        // 1ra Columna
+        
+        gotoxy(26, 9);  cout << "1. Mostrar todas las canciones";
+        gotoxy(26, 11); cout << "2. Agregar cancion a cola";
+        gotoxy(26, 12); cout << "   reproduccion";
+        gotoxy(26, 14); cout << "3. Reproducir siguiente cancion";
+        gotoxy(26, 16); cout << "4. Ver historial";
+        gotoxy(26, 18); cout << "5. Crear Album/Playlist";
+
+        //2da columna
+
+        gotoxy(61, 9); cout << "6. Reproducir Playlist";
+        gotoxy(61, 11); cout << "7. Mostrar opciones para canciones";
+        gotoxy(61, 13); cout << "8. Mostrar opciones para autores";
+        gotoxy(61, 15); cout << "9. Motrar opciones para albumes";
+        gotoxy(61, 17); cout << "ESC. Salir";
+    }
+
+    void menu() {
+        
+        bool salir = false;
+        
+        while (!salir) {
+        
+            clear();
+            interfaz();
+            interfazTextoMain();
+
+            int tecla = _getch();
+            clear();
+            switch (tecla)
+            {
+            case '1': //Mostrar todas las canciones
+
+                canciones.mostrarCanciones();
+                system("pause>0");
+                break;
+
+            case '2'://Agregar cancion a cola de reproduccion
+
+                break;
+
+            case '3': //Reproducir siguiente cancion
+                            
+
+                break;
+
+            case '4':
+
+                
+            
+                break;
+
+            case '5':
+
+                //Ver historial
+
+                break;
+
+            case '6': {//Crear Album/Playlist
+                string nombreAlbum = " ";
+                cout << "\nIngrese nombre del album (obvie espacios): ";
+                cin >> nombreAlbum;
+
+                albumes.agregarAlbum(nombreAlbum);
+
+                cout << "\nAlbum agregado correctamente";
+                
+                break;
+            }
+            case '7':
+
+                //Reproducir Playlist
+
+                break;
+            
+            case '8':
+
+                //Mostrar opciones para canciones
+
+                break;
+            
+            case '9': // mostrar opciones para autores
+
+                break;
+
+            case 27: // salir con escape
+                clear();
+                gotoxy(45, 14); color(BRIGHT_BLUE); cout << "Gracias por usar nuestra app!";
+                clearColor();
+                gotoxy(0, 29);
+                salir = true;
+                
+                break;
+            default:
+                break;
+            }
+        
+        }
+
     }
 
 private:
-    void ingresarDatosAutor() {
-        string nombre, nacionalidad;
-        int edad;
+    //void ingresarDatosAutor() {
+    //    string nombre, nacionalidad;
+    //    int edad;
+    //
+    //    cout << "Ingrese nombre del autor: ";
+    //    getline(cin >> ws, nombre);
+    //    cout << "Ingrese edad: ";
+    //    cin >> edad;
+    //    cout << "Ingrese nacionalidad: ";
+    //    getline(cin >> ws, nacionalidad);
+    //
+    //    Autor* nuevo = new Autor(nombre, edad, nacionalidad);
+    //    //listaAutores.agregarAutor(nuevo);        // Solo se pasa como argumento
+    //
+    //    cout << "Autor agregado con exito.\n";
+    //}
 
-        cout << "Ingrese nombre del autor: ";
-        getline(cin >> ws, nombre);
-        cout << "Ingrese edad: ";
-        cin >> edad;
-        cout << "Ingrese nacionalidad: ";
-        getline(cin >> ws, nacionalidad);
-
-        Autor* nuevo = new Autor(nombre, edad, nacionalidad);
-        listaAutores.agregarAutor(nuevo);        // Solo se pasa como argumento
-
-        cout << "Autor agregado con exito.\n";
-    }
-
-    void mostrarDatosAutor() {
-        string nombre;
-        cout << "Ingrese el nombre del autor: ";
-        getline(cin >> ws, nombre);
-
-        Autor* autor = listaAutores.buscarAutor(nombre);
-        if (autor != nullptr) {
-            autor->mostrarDatos();
-        }
-        else {
-            cout << "Autor no encontrado.\n";
-        }
-    }
-
-    void ingresarCancion() {
-        string nombreAutor, nombreCancion;
-        cout << "Ingrese el nombre del autor de la cancion: ";
-        getline(cin >> ws, nombreAutor);
-
-        Autor* autor = listaAutores.buscarAutor(nombreAutor);
-        if (autor != nullptr) {
-            cout << "Ingrese el nombre de la cancion: ";
-            getline(cin >> ws, nombreCancion);  
-            autor->agregarCancion(nombreCancion);
-            cout << "Cancion agregada correctamente.\n";
-        }
-        else {
-            cout << "Autor no encontrado.\n";
-        }
-    }
-
-    void mostrarCanciones() {
-        Nodo<Autor*>* actual = listaAutores.getCabeza();  // Nota: Autor* en lugar de Autor
-        if (!actual) {
-            cout << "No hay autores registrados.\n";
-            return;
-        }
-
-        while (actual != nullptr) {
-            actual->dato->mostrarCanciones();  // Usamos -> porque actual->dato es un puntero
-            actual = actual->siguiente;
-        }
-    }
+    //void mostrarDatosAutor() {
+    //    string nombre;
+    //    cout << "Ingrese el nombre del autor: ";
+    //    getline(cin >> ws, nombre);
+    //
+    //    //Autor* autor = listaAutores.buscarAutor(nombre);
+    //    if (autor != nullptr) {
+    //        autor->mostrarDatos();
+    //    }
+    //    else {
+    //        cout << "Autor no encontrado.\n";
+    //    }
+    //}
+    //
+    //void ingresarCancion() {
+    //    string nombreAutor, nombreCancion;
+    //    cout << "Ingrese el nombre del autor de la cancion: ";
+    //    getline(cin >> ws, nombreAutor);
+    //
+    //    //Autor* autor = listaAutores.buscarAutor(nombreAutor);
+    //    if (autor != nullptr) {
+    //        cout << "Ingrese el nombre de la cancion: ";
+    //        getline(cin >> ws, nombreCancion);  
+    //        autor->agregarCancion(nombreCancion);
+    //        cout << "Cancion agregada correctamente.\n";
+    //    }
+    //    else {
+    //        cout << "Autor no encontrado.\n";
+    //    }
+    //}
+    //
+    //void mostrarCanciones() {
+    //    Nodo<Autor*>* actual = listaAutores.getCabeza();  // Nota: Autor* en lugar de Autor
+    //    if (!actual) {
+    //        cout << "No hay autores registrados.\n";
+    //        return;
+    //    }
+    //
+    //    while (actual != nullptr) {
+    //        actual->dato->mostrarCanciones();  // Usamos -> porque actual->dato es un puntero
+    //        actual = actual->siguiente;
+    //    }
+    //}
 };
