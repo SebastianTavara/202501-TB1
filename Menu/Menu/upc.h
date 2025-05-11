@@ -10,6 +10,7 @@ void gotoxy(unsigned short int x, unsigned short int y) {
 
 }
 
+
 //Setea la visibilidad del cursor
 void setCursorVisible(bool isVisible) {
 
@@ -53,6 +54,13 @@ void clearColor() {
 //Pinta el color de la letra con un numero int, o enum de colors
 void color(int color) {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+}
+
+//color de error por defecto
+void errorColor() {
+
+    color(DARK_BLUE);
+
 }
 
 //Limpia la pantalla con system("cls")

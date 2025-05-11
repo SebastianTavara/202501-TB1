@@ -25,6 +25,12 @@ public:
         return autor;
     }
 
+    int getDuracion() {
+    
+        return duracion;
+    
+    }
+
     void mostrar() {
         cout << "\n" + nombre;
         cout << "\n" + autor;

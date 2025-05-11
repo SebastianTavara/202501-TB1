@@ -68,12 +68,11 @@ public:
 
     }
 
-    void opcionesCanciones() {
+    void interfazTextoCanciones() {
     
-        interfaz();
-
         // title
-        gotoxy(48, 3); color(BRIGHT_CYAN); cout << "Opciones para canciones";
+        gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
+        gotoxy(48, 4); color(BRIGHT_CYAN); cout << "Opciones para canciones";
 
         clearColor();
 
@@ -82,35 +81,283 @@ public:
         // de pantalla menos la mitad del size de string
         gotoxy(45, 9); cout << "1. Mostrar todas las canciones";
         gotoxy(44, 11); cout << "2. Buscar por nombre de cancion";
-        gotoxy(50, 13); cout << "3. Buscar por autor";
-        gotoxy(50, 15); cout << "4. Eliminar cancion";
-        gotoxy(50, 17); cout << "5. Agregar cancion";
-        gotoxy(50, 19); cout << "6. Reproducir cancion";
+        gotoxy(50, 13); cout << "3. Eliminar cancion";
+        gotoxy(51, 15); cout << "4. Agregar cancion";
+        gotoxy(50, 17); cout << "5. Reproducir cancion";
+        gotoxy(55, 19); cout << "ESC. Salir";
+    
+    }
 
-        int tecla = _getch();
+    void interfazTextoAutores() {
+    
+        // title
+        gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
+        gotoxy(49, 4); color(BRIGHT_CYAN); cout << "Opciones para autores";
 
-        switch (tecla)
-        {
-        case '1':
+        clearColor();
 
-            canciones.mostrarCanciones();
+        //Unica Columna
+        // el eje x de gotoxy es la mitad del ancho
+        // de pantalla menos la mitad del size de string
+        gotoxy(46, 9); cout << "1. Mostrar todos los autores";
+        gotoxy(45, 11); cout << "2. Buscar por nombre del autor";
+        gotoxy(31, 13); cout << "3. Eliminar autor (elimina todas las canciones asociadas)";
+        gotoxy(52, 15); cout << "4. Agregar autor";
+        gotoxy(47, 17); cout << "5. Agregar Cancion a autor";
+        gotoxy(55, 19); cout << "ESC. Salir";
 
-            break;
+    
+    }
+
+    void opcionesCanciones() {
+    
+
+        bool salir = false;
+
+        while (!salir) {
             
-        case '2': {
-            string titulo = " ";
+            clear();
 
-            cout << "Ingrese titulo de la cancion: ";
-            cin >> titulo;
+            interfaz();
 
-            canciones.buscarporTitulo(titulo);
-        
-            break;
+            interfazTextoCanciones();
+
+            int tecla = _getch();
+
+            clear();
+
+            switch (tecla)
+            {
+            case '1':
+
+                canciones.mostrarCanciones();
+                system("pause>0");
+
+                break;
+
+            case '2': {
+
+                setCursorVisible(true);
+
+                string titulo = " ";
+
+                cout << "Ingrese titulo de la cancion: ";
+                cin >> titulo;
+
+                canciones.buscarporTitulo(titulo);
+
+                setCursorVisible(false);
+
+                system("pause>0");
+
+                break;
             }
-        default:
-            break;
+            case '3': {
+                
+                setCursorVisible(true);
+
+                canciones.mostrarCanciones();
+
+                int index = 0;
+
+                cout << "\n\nIngrese index a eliminar: ";
+                cin >> index;
+
+                // nombre de autor a eliminar cancion
+                string nombreAutor = canciones.getAutorXIndex(index);
+                // nombre de la cancion eliminada
+                string nombreCancion = canciones.getCancionXIndex(index);
+                
+                autores.borrarCancionXAutorXCancion(nombreAutor, nombreCancion);
+
+                canciones.eliminarCancionXIndex(index);
+
+                
+                setCursorVisible(false);
+
+                system("pause>0");
+
+                break;
+            }
+            case '4': {
+
+                setCursorVisible(true);
+
+                string titulo = " ";
+                string autor = " ";
+                int duracion = 0;
+
+                cout << "\nIngrese el nombre de la cancion (sin espacios): ";
+                cin >> titulo;
+
+                cout << "\nIngrese el autor de la cancion (sin espacios): ";
+                cin >> autor;
+
+                cout << "\nIngrese la duracion de la cancion en segundos: ";
+                cin >> duracion;
+
+                canciones.agregarCancion(titulo, autor, duracion);
+
+                autores.agregarAutor(autor);
+
+                autores.agregarCancion(autor, titulo, duracion);
+
+                cout << "\nCancion agregada correctamente";
+
+                setCursorVisible(false);
+
+                system("pause>0");
+
+                break;
+            }
+
+            case '5':
+
+                canciones.mostrarCanciones();
+
+                // reproduce cancion;
+
+                break;
+
+            case 27:
+
+                salir = true;
+                break;
+
+            default:
+                break;
+            }
         }
 
+    }
+
+    void opcionesAutores() {
+    
+        bool salir = false;
+
+        while (!salir) {
+
+            clear();
+
+            interfaz();
+
+            interfazTextoAutores();
+
+            int tecla = _getch();
+
+            clear();
+
+            switch (tecla)
+            {
+            case '1':
+
+                autores.mostrarAutores();
+                system("pause>0");
+
+                break;
+
+            case '2': {
+
+                setCursorVisible(true);
+
+                string nombre = " ";
+
+                cout << "Ingrese nombre del autor: ";
+                cin >> nombre;
+
+                autores.BuscarAutor(nombre);
+
+                setCursorVisible(false);
+
+                system("pause>0");
+
+                break;
+            }
+            case '3': {
+
+                setCursorVisible(true);
+
+                autores.mostrarAutores();
+
+                int index = 0;
+                
+                cout << "\n\nSe eliminara todos las canciones referenciadas al autor";
+                cout << "\nIngrese index a eliminar: ";
+                
+                cin >> index;
+
+                
+                string nombre = " ";
+
+                autores.borrarAutorXIndex(index, nombre);
+
+                canciones.borrarCancionesxAutor(nombre);
+
+                setCursorVisible(false);
+
+                system("pause>0");
+
+                break;
+            }
+            case '4': {
+
+                setCursorVisible(true);
+
+                string nombreAutor = " ";
+                
+                cout << "\nIngrese el nombre del autor (sin espacios): ";
+                cin >> nombreAutor;
+
+                autores.agregarAutor(nombreAutor);
+
+                cout << "\nAutor agregado correctamente";
+
+                setCursorVisible(false);
+
+                system("pause>0");
+
+                break;
+            }
+
+            case '5': { // agregar cancion a autor
+
+                // primero muestra todos los autores
+                autores.mostrarAutores();
+
+                string nombreAutor = " ";
+                string nombreCancion = " ";
+                int duracion = 0;
+
+
+                cout << "\nIngrese el nombre de la cancion (sin espacios): ";
+                cin >> nombreCancion;
+
+                cout << "\nIngrese el autor de la cancion (sin espacios): ";
+                cin >> nombreAutor;
+
+                cout << "\nIngrese la duracion de la cancion en segundos: ";
+                cin >> duracion;
+
+                // agrega a la lista de autores
+                autores.agregarCancion(nombreAutor, nombreCancion, duracion);
+                
+                // agrega a la lista de canciones
+                canciones.agregarCancion(nombreCancion, nombreAutor, duracion);
+
+                system("pause>0");
+
+                break;
+            }
+            case 27:
+
+                salir = true;
+                break;
+
+            default:
+                break;
+            }
+        }
+    
     }
 
     void menu() {
@@ -137,7 +384,7 @@ public:
 
                 break;
 
-            case '3': //Reproducir siguiente cancion
+            case '3': //Reproducir cola
 
 
                 break;
@@ -176,6 +423,8 @@ public:
             case '8':
 
                 //Mostrar opciones para autores
+
+                opcionesAutores();
 
                 break;
 

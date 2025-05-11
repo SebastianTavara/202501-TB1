@@ -1,3 +1,8 @@
 ﻿  Menu.cpp
+C:\Users\sebas\Desktop\TB1\202501-TB1\Menu\Menu\ListaDeAutores.h(108,9): warning C4551: la llamada a la función no tiene lista de argumentos
+  (compilando archivo de origen "/Menu.cpp")
+  
+C:\Users\sebas\Desktop\TB1\202501-TB1\Menu\Menu\ListaDeCanciones.h(143,1): warning C4715: 'ListaCanciones::getAutorXIndex': no todas las rutas de acceso de control devuelven un valor
+C:\Users\sebas\Desktop\TB1\202501-TB1\Menu\Menu\ListaDeCanciones.h(174,1): warning C4715: 'ListaCanciones::getCancionXIndex': no todas las rutas de acceso de control devuelven un valor
   AssemblyInfo.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
   Menu.vcxproj -> C:\Users\sebas\Desktop\TB1\202501-TB1\Menu\x64\Debug\Menu.exe

@@ -9,20 +9,16 @@ using namespace std;
 class Autor {
 private:
     string nombre;
-    int edad;
-    string nacionalidad;
-    int numAlbumes;
     Lista<Cancion*>* cancionesdelAutor; 
+    int numCanciones;
 
 public:
 
-    Autor(string nombre, int edad, string nacionalidad, int numAlbumes){
+    Autor(string nombre){
 
         this->nombre = nombre;
-        this->edad = edad;
-        this->nacionalidad = nacionalidad;
-        this->numAlbumes = numAlbumes;
         cancionesdelAutor = new Lista<Cancion*>();
+        this->numCanciones = 0;
 
     }
 
@@ -37,6 +33,9 @@ public:
     void agregarCancion(string nombreCancion, int duracion) {
         Cancion* nueva = new Cancion(nombreCancion, nombre, duracion);  // Usa el nombre del autor
         cancionesdelAutor->agregar(nueva);
+
+        ++numCanciones;
+
     }
 
     void mostrarCancionesdeAutor() {
@@ -51,20 +50,41 @@ public:
     }
 
     void mostrarDatos() {
-        // numero de canciones
-        int numCanciones = 0;
-        Nodo<Cancion*>* actual = cancionesdelAutor->getCabeza();
-        while (actual != nullptr) {
-            numCanciones++;
-            actual = actual->siguiente;
-        }
+        
+        cout << "Nombre del Autor: " << nombre << " | #Canciones: " << numCanciones << endl;
+    }
 
-        cout << "Nombre: " << nombre << " | Edad: " << edad << " | Nacionalidad: " << nacionalidad
-            << " | #Albumes: " << numAlbumes << " | #Canciones: " << numCanciones << endl;
+    int getNumCanciones() {
+    
+        return numCanciones;
+    
     }
 
     Lista<Cancion*>* getCanciones() {
         return cancionesdelAutor;
+    }
+
+    void borrarXNombreCancion(string nombreCancion) {
+    
+        Nodo<Cancion*>* temp = cancionesdelAutor->getCabeza();
+        
+        int count = 1;
+
+        while (temp != nullptr) {
+        
+            if (temp->dato->getNombre() == nombreCancion) {
+            
+                cancionesdelAutor->eliminar(count);
+                
+                --numCanciones;
+
+                return;
+            }
+            ++count;
+            temp = temp->siguiente;
+        
+        }
+    
     }
 
 };
