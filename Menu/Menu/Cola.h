@@ -20,6 +20,10 @@ public:
 	T front();
 	bool esVacia();
 	void showElements();
+	T getDato();
+	Nodo<T>* getCabeza();
+	void Cola<T>::vaciar();
+
 };
 
 template<class T>
@@ -41,6 +45,28 @@ void Cola<T>::showElements()
 	}
 	cout << "nullptr";
 
+}
+
+template<class T>
+void Cola<T>::vaciar() {
+	while (frente != nullptr) {
+		Nodo<T>* temp = frente;
+		frente = frente->siguiente;
+		delete temp;
+	}
+	final = nullptr;
+}
+
+template<class T>
+T Cola<T>::getDato()
+{
+	return T();
+}
+
+template<class T>
+Nodo<T>* Cola<T>::getCabeza()
+{
+	return frente;
 }
 
 template<class T>

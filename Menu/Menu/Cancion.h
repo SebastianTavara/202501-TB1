@@ -32,7 +32,9 @@ public:
     }
 
     void mostrar() {
-        cout << "\n" + nombre;
-        cout << "\n" + autor;
+        cout << "\nNombre: " << nombre;
+        cout << "\nAutor: " << autor;
+        cout << "\nDuracion(s): " << duracion;
+
     }
 };

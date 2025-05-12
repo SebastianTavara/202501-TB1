@@ -8,18 +8,16 @@ class Historial {
 
 private:
 	Pila<Cancion*>* historial;
-	int numHistorial;
 public:
 	Historial() {
 	
 		this->historial = new Pila<Cancion*>();
-	
+
 	}
 
 	void agregar(Cancion* cancion) {
 	
 		historial->push(cancion);
-		++numHistorial;
 
 	}
 
@@ -27,20 +25,44 @@ public:
 	
 		if (historial->estaVacia()) {
 		
-			cout << "\nAUN NO SE HA ESCUCHADO NADA";
+			errorColor(); cout << "\nAUN NO SE HA ESCUCHADO NADA";
 			return;
 		
 		}
 
-		historial->showElements();
+		cout << "Numero de canciones vistas: " << historial->getNumElements();
+
+		Nodo<Cancion*>* actual = historial->getTope();
+
+		int count = 1;
+
+		while (actual != nullptr) {
+		
+			cout << "\n\nNumero. " << count;
+			cout << "\nCancion: " << actual->dato->getNombre();
+			cout << "\nAutor: " << actual->dato->getAutor();
+			cout<<"\nDuracion: " << actual->dato->getDuracion();
+			cout << "\n";
+			
+			actual = actual->siguiente;
+			++count;
+
+		}
+
+		cout << "\nDEBUG: tope actual = " << historial->top()->getNombre();
 	
 	}
 
 	void borrarHistorial() {
-	
 
+		historial->vaciar();
 	
 	}
 
+	Pila<Cancion*>* getPila() {
+	
+		return historial;
+	
+	}
 
 };

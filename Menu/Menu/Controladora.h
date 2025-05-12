@@ -8,6 +8,10 @@
 #include "ListaDeCanciones.h"
 #include "ListaDeAutores.h"
 #include "ListaDeAlbum.h"
+#include "ReproducirPlaylist.h"
+#include "utilidadesLogos.h"
+#include "ColadeReproduccion.h"
+#include "Historial.h"
 
 // aun en modificacion
 
@@ -16,10 +20,13 @@ private:
     ListaCanciones canciones;
     ListaAutores autores;
     ListaAlbum albumes;
+    ColaReproduccion cola;
+    Historial* historial;
 
 public:
     Controladora() {
     
+        historial = new Historial();
     
     }
 
@@ -54,13 +61,13 @@ public:
         gotoxy(26, 9);  cout << "1. Mostrar todas las canciones";
         gotoxy(26, 11); cout << "2. Agregar cancion a cola";
         gotoxy(26, 12); cout << "   reproduccion";
-        gotoxy(26, 14); cout << "3. Reproducir cola";
+        gotoxy(26, 14); cout << "3. Ver cola";
         gotoxy(26, 16); cout << "4. Ver historial";
-        gotoxy(26, 18); cout << "5. Crear Album/Playlist";
+        gotoxy(26, 18); cout << "5. Borrar historial";
 
         //2da columna
 
-        gotoxy(61, 9); cout << "6. Reproducir Playlist";
+        gotoxy(61, 9); cout << "6. Borrar cola de reproduccion";
         gotoxy(61, 11); cout << "7. Mostrar opciones para canciones";
         gotoxy(61, 13); cout << "8. Mostrar opciones para autores";
         gotoxy(61, 15); cout << "9. Motrar opciones para albumes";
@@ -360,6 +367,151 @@ public:
     
     }
 
+    void interfazTextoAlbumes() {
+
+        // title
+        gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
+        gotoxy(49, 4); color(BRIGHT_CYAN); cout << "Opciones para albumes";
+
+        clearColor();
+
+        //Unica Columna
+        // el eje x de gotoxy es la mitad del ancho
+        // de pantalla menos la mitad del size de string
+        gotoxy(45, 9); cout << "1. Mostrar todos los albumes\n";
+        gotoxy(45, 11);cout << "2. Eliminar album por indice\n";
+        gotoxy(39, 13);cout << "3. Modificar nombre del album por indice\n";
+        gotoxy(48, 15);cout << "4. Crear Album/Playlist\n";
+        gotoxy(48, 17);cout << "5. Reproducir Playlist\n";
+        gotoxy(55, 19); cout << "ESC. Salir";
+
+
+    }
+
+    void opcionesAlbumes() {
+
+        bool salirAlbumes = false;
+
+        while (!salirAlbumes) {
+            clear();
+
+            interfaz();
+            interfazTextoAlbumes();
+
+            int tecla = _getch();
+            clear();
+
+            switch (tecla) {
+            case '1':
+                albumes.mostrarAlbumes();
+                break;
+
+            case '2': {
+                albumes.mostrarAlbumes();
+
+                if (albumes.esVacia()) {
+                
+                    break;
+                
+                }
+                setCursorVisible(1);
+                int index;
+                cout << "Ingrese el indice del album a eliminar: ";
+                cin >> index;
+                if (index = 0) {
+                    salirAlbumes = true;
+                }
+                albumes.eliminarAlbumPorIndice(index);
+                
+                setCursorVisible(0);
+
+                break;
+            }
+
+
+            case '3': {
+                albumes.mostrarAlbumes();
+                int index;
+                string nuevoNombre;
+                setCursorVisible(1);
+                cout << "\nIngrese el indice del album a modificar: ";
+                cin >> index;
+                cin.ignore();
+                cout << "Ingrese el nuevo nombre del album: ";
+                getline(cin, nuevoNombre);
+                albumes.modificarAlbumPorIndice(index, nuevoNombre);
+                
+                setCursorVisible(0);
+
+                break;
+            }
+            case '4': {
+
+                setCursorVisible(1);
+
+                string nombreAlbum;
+                cout << "\nIngrese nombre del album (obvie espacios): ";
+                cin >> nombreAlbum;
+
+                albumes.agregarAlbum(nombreAlbum);
+                cout << "\nAlbum agregado correctamente\n";
+
+                // Mostrar canciones disponibles
+                canciones.mostrarCanciones();
+
+                int cantidadCanciones;
+                cout << "\n¿Cuantas canciones desea agregar a este album?: ";
+                cin >> cantidadCanciones;
+
+                Album* ultimo = albumes.obtenerUltimoAlbum(); // obtener solo una vez
+                if (!ultimo) {
+                    cout << "Error al recuperar el album.\n";
+                    break;
+                }
+
+                for (int i = 0; i < cantidadCanciones; ++i) {
+                    int indexCancion;
+                    cout << "\nIngrese el indice de la cancion " << (i + 1) << ": ";
+                    cin >> indexCancion;
+
+                    setCursorVisible(0);
+
+                    Cancion* cancionSeleccionada = canciones.getCancionPorIndex(indexCancion - 1);
+                    if (cancionSeleccionada != nullptr) {
+                        ultimo->agregarCancion(cancionSeleccionada);
+                        cout << "Cancion agregada correctamente.\n";
+                        _getch();
+                    }
+                    else {
+                        cout << "Indice invalido. Cancion no agregada.\n";
+                        _getch();
+                    }
+                }
+
+                break;
+            }
+            case '5': {
+                // Reproducir Album/Playlist
+                ReproducirPlaylist reproducir(&albumes);
+                reproducir.seleccionarAlbumYReproducir(historial);
+                break;
+            }
+
+            case 27: // Tecla ESC
+                salirAlbumes = true;
+                break;
+
+            default:
+                cout << "Opción inválida.\n";
+                break;
+            }
+
+            system("pause"); // Esperar tecla antes de limpiar
+        }
+        
+
+    }
+
     void menu() {
 
         bool salir = false;
@@ -380,38 +532,89 @@ public:
                 system("pause>0");
                 break;
 
-            case '2'://Agregar cancion a cola de reproduccion
+            case '2': { //Agregar cancion a cola de reproduccion
+
+                int index = 0;
+
+                //muestra todas las canciones
+                canciones.mostrarCanciones();
+
+                //elige una
+                cout << "\nEliga una cancion: ";
+                cin >> index;
+
+                Cancion* temp = canciones.getCancionPorIndex(index);
+
+                if (temp == nullptr) {
+                
+                    errorColor(); cout << "\nLa cancion no ha sido agregada";
+                    clearColor();
+
+                    system("pause>0");
+                    break;
+                
+                }
+
+                cola.agregar(temp);
+
+                cout << "\n Cancion Agregada con exito";
+
+                system("pause>0");
+
 
                 break;
+            }
+            case '3': // Ver cola
 
-            case '3': //Reproducir cola
+                cola.mostrar();
 
+                system("pause>0");
 
                 break;
 
             case '4': //Ver historial
 
+                if (historial->getPila()->estaVacia()) {
+                
 
+                    cout << "\nAun no se ha visto nada";
+
+                    system("pause>0");
+
+                    break;
+                
+                }
+
+                historial->mostrar();
+
+                system("pause>0");
 
                 break;
 
-            case '5':
+            case '5': { // Borrar Historial
 
-                //Ver historial
+                historial->borrarHistorial();
 
-                break;
+                cout << "\nHistorial borrado satisfactoriamente";
 
-            case '6': {//Crear Album/Playlist
-                string nombreAlbum = " ";
-                cout << "\nIngrese nombre del album (obvie espacios): ";
-                cin >> nombreAlbum;
-
-                albumes.agregarAlbum(nombreAlbum);
-
-                cout << "\nAlbum agregado correctamente";
+                system("pause>0");
 
                 break;
             }
+
+            case '6':{ // Borrar cola de reroduccion
+
+                cola.eliminarColaReproduccion();
+
+
+                cout << "\nCola de Reproduccion borrada satisfactoriamente";
+
+                system("pause>0");
+
+                break;
+            }
+
+
             case '7':
 
                 //mostrar opciones para canciones
@@ -428,9 +631,12 @@ public:
 
                 break;
 
-            case '9': // mostrar opciones para albumes
+            case '9': { // Opciones para álbumes
+                
+                opcionesAlbumes();
 
                 break;
+            }
 
             case 27: // salir con escape
                 clear();

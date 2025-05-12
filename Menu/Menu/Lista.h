@@ -85,4 +85,9 @@ public:
     
     }
 
+    void setCabeza(Nodo<T>* nuevaCabeza) {
+        cabeza = nuevaCabeza;
+    }
+
+
 };

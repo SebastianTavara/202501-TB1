@@ -1,95 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\",
+  "WorkspaceRootPath": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Autor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Autor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ListaDeAutores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\ListaDeAutores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ListaDeCanciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ListaDeCanciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\ListaDeCanciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cancion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Cancion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Controladora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\__msvc_string_view.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Controladora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Controladora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\upc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\upc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Lista.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Lista.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Pila.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Pila.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebas\\AppData\\Local\\Temp\\c4b56855-95b6-42bc-8c9b-f6c074ae6c32_GHorghetLista[1].zip.c32\\GHorghetLista\\ListaEnlazadaCancion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebas\\AppData\\Local\\Temp\\01da0c86-1782-4f4c-8c6e-35022fa80982_GHorghetLista[1].zip.982\\GHorghetLista\\ListaEnlazadaReproducciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebas\\AppData\\Local\\Temp\\f31b2c94-74c9-4223-9cdd-b31d1cb46a03_GHorghetLista[1].zip.a03\\GHorghetLista\\NodoCancion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebas\\AppData\\Local\\Temp\\a7f63e03-628d-423f-a5ed-7b2be83459e5_GHorghetLista[1].zip.9e5\\GHorghetLista\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebas\\AppData\\Local\\Temp\\9dd6d405-3d74-4972-a6f7-4544bd0f8196_GHorghetLista[1].zip.196\\GHorghetLista\\LeerTxtCanciones.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ejme.text||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\ejme.text||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Historial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Historial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Nodo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Nodo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Cola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ColadeReproduccion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ColadeReproduccion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\ColadeReproduccion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Album.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Album.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Cancion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Cancion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ListaDeAlbum.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Historial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Historial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Lista.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Lista.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Pila.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Pila.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Cola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Cola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ReproducirPlaylist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\ReproducirPlaylist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Nodo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Nodo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\NodoDoble.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\NodoDoble.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ListaDeAlbum.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\ListaDeAlbum.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\utilidadesLogos.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\utilidadesLogos.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\upc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\upc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Album.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Album.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ListaDeAutores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\ListaDeAutores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Autor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\Autor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ejme.text||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{70F291CE-F52A-F835-DB2F-FD261E9EC2F5}|Menu\\Menu.vcxproj|solutionrelative:Menu\\ejme.text||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 214,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,202 +100,251 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\sebas\\AppData\\Local\\Temp\\a7f63e03-628d-423f-a5ed-7b2be83459e5_GHorghetLista[1].zip.9e5\\GHorghetLista\\Source.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\a7f63e03-628d-423f-a5ed-7b2be83459e5_GHorghetLista[1].zip.9e5\\GHorghetLista\\Source.cpp",
-              "ToolTip": "C:\\Users\\sebas\\AppData\\Local\\Temp\\a7f63e03-628d-423f-a5ed-7b2be83459e5_GHorghetLista[1].zip.9e5\\GHorghetLista\\Source.cpp [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\a7f63e03-628d-423f-a5ed-7b2be83459e5_GHorghetLista[1].zip.9e5\\GHorghetLista\\Source.cpp [Solo lectura]",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-10T21:12:28.392Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NodoCancion.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\AppData\\Local\\Temp\\f31b2c94-74c9-4223-9cdd-b31d1cb46a03_GHorghetLista[1].zip.a03\\GHorghetLista\\NodoCancion.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\f31b2c94-74c9-4223-9cdd-b31d1cb46a03_GHorghetLista[1].zip.a03\\GHorghetLista\\NodoCancion.h",
-              "ToolTip": "C:\\Users\\sebas\\AppData\\Local\\Temp\\f31b2c94-74c9-4223-9cdd-b31d1cb46a03_GHorghetLista[1].zip.a03\\GHorghetLista\\NodoCancion.h [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\f31b2c94-74c9-4223-9cdd-b31d1cb46a03_GHorghetLista[1].zip.a03\\GHorghetLista\\NodoCancion.h [Solo lectura]",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "__msvc_string_view.hpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\__msvc_string_view.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\__msvc_string_view.hpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\__msvc_string_view.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\__msvc_string_view.hpp",
+              "ViewState": "AgIAAG0BAAAAAAAAAAAlwHsBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-10T21:12:28.242Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ListaEnlazadaReproducciones.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\AppData\\Local\\Temp\\01da0c86-1782-4f4c-8c6e-35022fa80982_GHorghetLista[1].zip.982\\GHorghetLista\\ListaEnlazadaReproducciones.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\01da0c86-1782-4f4c-8c6e-35022fa80982_GHorghetLista[1].zip.982\\GHorghetLista\\ListaEnlazadaReproducciones.h",
-              "ToolTip": "C:\\Users\\sebas\\AppData\\Local\\Temp\\01da0c86-1782-4f4c-8c6e-35022fa80982_GHorghetLista[1].zip.982\\GHorghetLista\\ListaEnlazadaReproducciones.h [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\01da0c86-1782-4f4c-8c6e-35022fa80982_GHorghetLista[1].zip.982\\GHorghetLista\\ListaEnlazadaReproducciones.h [Solo lectura]",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-10T21:12:28.085Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ListaEnlazadaCancion.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\AppData\\Local\\Temp\\c4b56855-95b6-42bc-8c9b-f6c074ae6c32_GHorghetLista[1].zip.c32\\GHorghetLista\\ListaEnlazadaCancion.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\c4b56855-95b6-42bc-8c9b-f6c074ae6c32_GHorghetLista[1].zip.c32\\GHorghetLista\\ListaEnlazadaCancion.h",
-              "ToolTip": "C:\\Users\\sebas\\AppData\\Local\\Temp\\c4b56855-95b6-42bc-8c9b-f6c074ae6c32_GHorghetLista[1].zip.c32\\GHorghetLista\\ListaEnlazadaCancion.h [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\c4b56855-95b6-42bc-8c9b-f6c074ae6c32_GHorghetLista[1].zip.c32\\GHorghetLista\\ListaEnlazadaCancion.h [Solo lectura]",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-10T21:12:27.888Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LeerTxtCanciones.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\AppData\\Local\\Temp\\9dd6d405-3d74-4972-a6f7-4544bd0f8196_GHorghetLista[1].zip.196\\GHorghetLista\\LeerTxtCanciones.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\9dd6d405-3d74-4972-a6f7-4544bd0f8196_GHorghetLista[1].zip.196\\GHorghetLista\\LeerTxtCanciones.h",
-              "ToolTip": "C:\\Users\\sebas\\AppData\\Local\\Temp\\9dd6d405-3d74-4972-a6f7-4544bd0f8196_GHorghetLista[1].zip.196\\GHorghetLista\\LeerTxtCanciones.h [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\9dd6d405-3d74-4972-a6f7-4544bd0f8196_GHorghetLista[1].zip.196\\GHorghetLista\\LeerTxtCanciones.h [Solo lectura]",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-10T21:12:27.568Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Controladora.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Controladora.h",
-              "RelativeDocumentMoniker": "Menu\\Controladora.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Controladora.h",
-              "RelativeToolTip": "Menu\\Controladora.h",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAcwLYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-06T22:54:17.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cancion.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cancion.h",
-              "RelativeDocumentMoniker": "Menu\\Cancion.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cancion.h",
-              "RelativeToolTip": "Menu\\Cancion.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-06T22:53:48.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Lista.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Lista.h",
-              "RelativeDocumentMoniker": "Menu\\Lista.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Lista.h",
-              "RelativeToolTip": "Menu\\Lista.h",
-              "ViewState": "AgIAABkAAAAAAAAAAAAWwD0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-09T05:08:12.542Z",
+              "WhenOpened": "2025-05-11T21:33:01.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ListaDeAutores.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ListaDeAutores.h",
-              "RelativeDocumentMoniker": "Menu\\ListaDeAutores.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ListaDeAutores.h",
-              "RelativeToolTip": "Menu\\ListaDeAutores.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-10T00:05:12.355Z",
+              "Title": "xstring",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xstring",
+              "ViewState": "AgIAAN8CAAAAAAAAAAAlwO0CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-11T21:26:13.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Nodo.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Nodo.h",
-              "RelativeDocumentMoniker": "Menu\\Nodo.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Nodo.h",
-              "RelativeToolTip": "Menu\\Nodo.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ReproducirPlaylist.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ReproducirPlaylist.h",
+              "RelativeDocumentMoniker": "Menu\\ReproducirPlaylist.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ReproducirPlaylist.h",
+              "RelativeToolTip": "Menu\\ReproducirPlaylist.h",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAmwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-09T04:56:32.682Z"
+              "WhenOpened": "2025-05-11T04:02:01.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Pila.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Pila.h",
-              "RelativeDocumentMoniker": "Menu\\Pila.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Pila.h",
-              "RelativeToolTip": "Menu\\Pila.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ListaDeAlbum.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ListaDeAlbum.h",
+              "RelativeDocumentMoniker": "Menu\\ListaDeAlbum.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ListaDeAlbum.h",
+              "RelativeToolTip": "Menu\\ListaDeAlbum.h",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-09T22:45:28.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T01:09:19.053Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ColadeReproduccion.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ColadeReproduccion.h",
-              "RelativeDocumentMoniker": "Menu\\ColadeReproduccion.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ColadeReproduccion.h",
-              "RelativeToolTip": "Menu\\ColadeReproduccion.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-10T04:05:48.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "Album.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Album.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Album.h",
               "RelativeDocumentMoniker": "Menu\\Album.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Album.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Album.h",
               "RelativeToolTip": "Menu\\Album.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwE8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-06T22:54:02.616Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Historial.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Historial.h",
-              "RelativeDocumentMoniker": "Menu\\Historial.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Historial.h",
-              "RelativeToolTip": "Menu\\Historial.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Title": "utilidadesLogos.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\utilidadesLogos.h",
+              "RelativeDocumentMoniker": "Menu\\utilidadesLogos.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\utilidadesLogos.h",
+              "RelativeToolTip": "Menu\\utilidadesLogos.h",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAgwA8BAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-10T04:08:16.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Autor.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Autor.h",
-              "RelativeDocumentMoniker": "Menu\\Autor.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Autor.h",
-              "RelativeToolTip": "Menu\\Autor.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-06T22:53:25.633Z",
+              "WhenOpened": "2025-05-11T11:38:17.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
+              "Title": "Controladora.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Controladora.h",
+              "RelativeDocumentMoniker": "Menu\\Controladora.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Controladora.h",
+              "RelativeToolTip": "Menu\\Controladora.h",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAkwJwBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-06T22:54:17.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lista.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Lista.h",
+              "RelativeDocumentMoniker": "Menu\\Lista.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Lista.h",
+              "RelativeToolTip": "Menu\\Lista.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T05:08:12.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListaDeCanciones.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ListaDeCanciones.h",
+              "RelativeDocumentMoniker": "Menu\\ListaDeCanciones.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ListaDeCanciones.h",
+              "RelativeToolTip": "Menu\\ListaDeCanciones.h",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAlwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T23:54:59.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ListaDeAutores.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ListaDeAutores.h",
+              "RelativeDocumentMoniker": "Menu\\ListaDeAutores.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ListaDeAutores.h",
+              "RelativeToolTip": "Menu\\ListaDeAutores.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-10T00:05:12.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ColadeReproduccion.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ColadeReproduccion.h",
+              "RelativeDocumentMoniker": "Menu\\ColadeReproduccion.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ColadeReproduccion.h",
+              "RelativeToolTip": "Menu\\ColadeReproduccion.h",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-10T04:05:48.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "upc.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\upc.h",
+              "RelativeDocumentMoniker": "Menu\\upc.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\upc.h",
+              "RelativeToolTip": "Menu\\upc.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-10T03:17:15.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Menu.cpp",
+              "RelativeDocumentMoniker": "Menu\\Menu.cpp",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Menu.cpp",
+              "RelativeToolTip": "Menu\\Menu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-06T22:53:09.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NodoDoble.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\NodoDoble.h",
+              "RelativeDocumentMoniker": "Menu\\NodoDoble.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\NodoDoble.h",
+              "RelativeToolTip": "Menu\\NodoDoble.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-11T03:45:06.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cancion.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Cancion.h",
+              "RelativeDocumentMoniker": "Menu\\Cancion.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Cancion.h",
+              "RelativeToolTip": "Menu\\Cancion.h",
+              "ViewState": "AgIAABcAAAAAAAAAAADgvyIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-06T22:53:48.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Nodo.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Nodo.h",
+              "RelativeDocumentMoniker": "Menu\\Nodo.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Nodo.h",
+              "RelativeToolTip": "Menu\\Nodo.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T04:56:32.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pila.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Pila.h",
+              "RelativeDocumentMoniker": "Menu\\Pila.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Pila.h",
+              "RelativeToolTip": "Menu\\Pila.h",
+              "ViewState": "AgIAABQAAAAAAAAAAAAWwCAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T22:45:28.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Historial.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Historial.h",
+              "RelativeDocumentMoniker": "Menu\\Historial.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Historial.h",
+              "RelativeToolTip": "Menu\\Historial.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-10T04:08:16.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Autor.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Autor.h",
+              "RelativeDocumentMoniker": "Menu\\Autor.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Autor.h",
+              "RelativeToolTip": "Menu\\Autor.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-06T22:53:25.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ejme.text",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ejme.text",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ejme.text",
               "RelativeDocumentMoniker": "Menu\\ejme.text",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ejme.text",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\ejme.text",
               "RelativeToolTip": "Menu\\ejme.text",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -300,65 +352,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "Cola.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cola.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Cola.h",
               "RelativeDocumentMoniker": "Menu\\Cola.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Cola.h",
+              "ToolTip": "C:\\Users\\sebas\\Downloads\\Github - Grupal\\Github - Grupal\\Menu\\Menu\\Cola.h",
               "RelativeToolTip": "Menu\\Cola.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAD4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-09T22:49:09.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListaDeCanciones.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ListaDeCanciones.h",
-              "RelativeDocumentMoniker": "Menu\\ListaDeCanciones.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ListaDeCanciones.h",
-              "RelativeToolTip": "Menu\\ListaDeCanciones.h",
-              "ViewState": "AgIAACkAAAAAAAAAAAAcwDkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-09T23:54:59.197Z",
+              "WhenOpened": "2025-05-09T22:49:09.338Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ListaDeAlbum.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ListaDeAlbum.h",
-              "RelativeDocumentMoniker": "Menu\\ListaDeAlbum.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\ListaDeAlbum.h",
-              "RelativeToolTip": "Menu\\ListaDeAlbum.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-10T01:09:19.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "upc.h",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\upc.h",
-              "RelativeDocumentMoniker": "Menu\\upc.h",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\upc.h",
-              "RelativeToolTip": "Menu\\upc.h",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAMwD0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-10T03:17:15.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Menu.cpp",
-              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Menu.cpp",
-              "RelativeDocumentMoniker": "Menu\\Menu.cpp",
-              "ToolTip": "C:\\Users\\sebas\\Desktop\\TB1\\202501-TB1\\Menu\\Menu\\Menu.cpp",
-              "RelativeToolTip": "Menu\\Menu.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-06T22:53:09.734Z"
             }
           ]
         }

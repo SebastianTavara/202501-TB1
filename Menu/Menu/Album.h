@@ -21,6 +21,9 @@ public:
     string getNombre() {
         return nombre;
     }
+    void setNombre(string nuevoNombre) {
+        this->nombre = nuevoNombre;
+    }
 
     void agregarCancion(Cancion* cancion) {
         cancionesdelAlbum->agregar(cancion);
@@ -49,12 +52,46 @@ public:
         }
     }
 
-    void eliminarCancion();
+    void eliminarCancion() {
+        if (cantAlbum == 0) {
+            cout << "\nEl álbum no tiene canciones.\n";
+            return;
+        }
+
+        cout << "\nCanciones en el álbum \"" << nombre << "\":\n";
+        Nodo<Cancion*>* actual = cancionesdelAlbum->getCabeza();
+        int index = 1;
+
+        while (actual != nullptr) {
+            cout << index << ". " << actual->dato->getNombre() << " - " << actual->dato->getAutor() << endl;
+            actual = actual->siguiente;
+            index++;
+        }
+
+        int opcion;
+        cout << "\nIngrese el número de la canción que desea quitar del álbum: ";
+        cin >> opcion;
+
+        if (opcion < 1 || opcion > cantAlbum) {
+            cout << "Índice inválido.\n";
+            return;
+        }
+
+        cancionesdelAlbum->eliminar(opcion - 1);   
+        cantAlbum--;
+
+        cout << "Canción removida del álbum correctamente.\n";
+    }
 
     int getCantAlbum() {
     
         return cantAlbum;
     
     }
+
+    Lista<Cancion*>* getCanciones() {
+        return cancionesdelAlbum;
+    }
+
 
 };

@@ -137,9 +137,13 @@
     <ClInclude Include="ListaDeAlbum.h" />
     <ClInclude Include="ListaDeAutores.h" />
     <ClInclude Include="ListaDeCanciones.h" />
+    <ClInclude Include="ListaDoble.h" />
     <ClInclude Include="Nodo.h" />
+    <ClInclude Include="NodoDoble.h" />
     <ClInclude Include="Pila.h" />
+    <ClInclude Include="ReproducirPlaylist.h" />
     <ClInclude Include="upc.h" />
+    <ClInclude Include="utilidadesLogos.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />

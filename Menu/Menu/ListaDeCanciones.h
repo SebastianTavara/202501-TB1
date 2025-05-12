@@ -173,4 +173,24 @@ public:
 	
 	}
 
+	Cancion* getCancionPorIndex(int index) {
+		if (index < 0 || index >= numCanciones) {
+			errorColor(); cout << "\nÍndice incorrecto\n"; clearColor();
+			return nullptr;
+		}
+
+		Nodo<Cancion*>* actual = canciones->getCabeza();
+		int count = 0;
+
+		while (actual != nullptr) {
+			if (count == index) {
+				return actual->dato;
+			}
+			actual = actual->siguiente;
+			++count;
+		}
+
+		return nullptr; // Por si acaso no se encuentra (aunque no debería pasar)
+	}
+
 };
