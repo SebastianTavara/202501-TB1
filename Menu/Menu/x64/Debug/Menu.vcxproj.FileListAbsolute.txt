@@ -3,3 +3,5 @@ C:\Users\sebas\Downloads\Menu\Menu\Menu\x64\Debug\Menu.vcxproj.AssemblyReference
 C:\Users\sebas\Desktop\TB1\202501-TB1\Menu\Menu\x64\Debug\Menu.vcxproj.AssemblyReference.cache
 C:\Users\aldoh\OneDrive\Desktop\3er ciclo - UPC\Github - Grupal\Menu\Menu\x64\Debug\Menu.vcxproj.AssemblyReference.cache
 C:\Users\sebas\Downloads\Github - Grupal\Github - Grupal\Menu\Menu\x64\Debug\Menu.vcxproj.AssemblyReference.cache
+C:\Users\aldoh\OneDrive\Desktop\Spotify - Proyecto\Github - Grupal\Menu\Menu\x64\Debug\Menu.vcxproj.AssemblyReference.cache
+C:\Users\sebas\Downloads\Spotify - Proyecto\Spotify - Proyecto\Github - Grupal\Menu\Menu\x64\Debug\Menu.vcxproj.AssemblyReference.cache

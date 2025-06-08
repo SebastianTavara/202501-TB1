@@ -49,71 +49,75 @@ public:
     }
 
     void interfazTextoMain() {
+        auto interMain = []() { //lambda
 
-        // titulo
-        gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
+            // titulo
+            gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
 
-        clearColor();
-        //opciones
+            clearColor();
+            //opciones
 
-        // 1ra Columna
+            // 1ra Columna
 
-        gotoxy(26, 9);  cout << "1. Mostrar todas las canciones";
-        gotoxy(26, 11); cout << "2. Agregar cancion a cola";
-        gotoxy(26, 12); cout << "   reproduccion";
-        gotoxy(26, 14); cout << "3. Ver cola";
-        gotoxy(26, 16); cout << "4. Ver historial";
-        gotoxy(26, 18); cout << "5. Borrar historial";
+            gotoxy(26, 9);  cout << "1. Mostrar todas las canciones";
+            gotoxy(26, 11); cout << "2. Agregar cancion a cola";
+            gotoxy(26, 12); cout << "   reproduccion";
+            gotoxy(26, 14); cout << "3. Ver cola";
+            gotoxy(26, 16); cout << "4. Ver historial";
+            gotoxy(26, 18); cout << "5. Borrar historial";
 
-        //2da columna
+            //2da columna
 
-        gotoxy(61, 9); cout << "6. Borrar cola de reproduccion";
-        gotoxy(61, 11); cout << "7. Mostrar opciones para canciones";
-        gotoxy(61, 13); cout << "8. Mostrar opciones para autores";
-        gotoxy(61, 15); cout << "9. Motrar opciones para albumes";
-        gotoxy(61, 17); cout << "ESC. Salir";
-
+            gotoxy(61, 9); cout << "6. Borrar cola de reproduccion";
+            gotoxy(61, 11); cout << "7. Mostrar opciones para canciones";
+            gotoxy(61, 13); cout << "8. Mostrar opciones para autores";
+            gotoxy(61, 15); cout << "9. Motrar opciones para albumes";
+            gotoxy(61, 17); cout << "ESC. Salir";
+            };
+        interMain();
     }
 
     void interfazTextoCanciones() {
-    
-        // title
-        gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
-        gotoxy(48, 4); color(BRIGHT_CYAN); cout << "Opciones para canciones";
+        auto imtertextoCancion = []() {
 
-        clearColor();
+            // title
+            gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
+            gotoxy(48, 4); color(BRIGHT_CYAN); cout << "Opciones para canciones";
 
-        //Unica Columna
-        // el eje x de gotoxy es la mitad del ancho
-        // de pantalla menos la mitad del size de string
-        gotoxy(45, 9); cout << "1. Mostrar todas las canciones";
-        gotoxy(44, 11); cout << "2. Buscar por nombre de cancion";
-        gotoxy(50, 13); cout << "3. Eliminar cancion";
-        gotoxy(51, 15); cout << "4. Agregar cancion";
-        gotoxy(50, 17); cout << "5. Reproducir cancion";
-        gotoxy(55, 19); cout << "ESC. Salir";
-    
+            clearColor();
+
+            //Unica Columna
+            // el eje x de gotoxy es la mitad del ancho
+            // de pantalla menos la mitad del size de string
+            gotoxy(45, 9); cout << "1. Mostrar todas las canciones";
+            gotoxy(44, 11); cout << "2. Buscar por nombre de cancion";
+            gotoxy(50, 13); cout << "3. Eliminar cancion";
+            gotoxy(51, 15); cout << "4. Agregar cancion";
+            gotoxy(50, 17); cout << "5. Reproducir cancion";
+            gotoxy(55, 19); cout << "ESC. Salir";
+            };
+        imtertextoCancion();
     }
 
     void interfazTextoAutores() {
-    
-        // title
-        gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
-        gotoxy(49, 4); color(BRIGHT_CYAN); cout << "Opciones para autores";
+        auto imprimirInterfaz=[]() {//lambda
+            // title
+            gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
+            gotoxy(49, 4); color(BRIGHT_CYAN); cout << "Opciones para autores";
 
-        clearColor();
+            clearColor();
 
-        //Unica Columna
-        // el eje x de gotoxy es la mitad del ancho
-        // de pantalla menos la mitad del size de string
-        gotoxy(46, 9); cout << "1. Mostrar todos los autores";
-        gotoxy(45, 11); cout << "2. Buscar por nombre del autor";
-        gotoxy(31, 13); cout << "3. Eliminar autor (elimina todas las canciones asociadas)";
-        gotoxy(52, 15); cout << "4. Agregar autor";
-        gotoxy(47, 17); cout << "5. Agregar Cancion a autor";
-        gotoxy(55, 19); cout << "ESC. Salir";
-
-    
+            //Unica Columna
+            // el eje x de gotoxy es la mitad del ancho
+            // de pantalla menos la mitad del size de string
+            gotoxy(46, 9); cout << "1. Mostrar todos los autores";
+            gotoxy(45, 11); cout << "2. Buscar por nombre del autor";
+            gotoxy(31, 13); cout << "3. Eliminar autor (elimina todas las canciones asociadas)";
+            gotoxy(52, 15); cout << "4. Agregar autor";
+            gotoxy(47, 17); cout << "5. Agregar Cancion a autor";
+            gotoxy(55, 19); cout << "ESC. Salir";
+        };
+        imprimirInterfaz();
     }
 
     void opcionesCanciones() {
@@ -368,24 +372,20 @@ public:
     }
 
     void interfazTextoAlbumes() {
+        auto imprimirMenu = []() { //primer lambda
+            gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
+            gotoxy(49, 4); color(BRIGHT_CYAN); cout << "Opciones para albumes";
+            clearColor();
 
-        // title
-        gotoxy(52, 3); color(BRIGHT_CYAN); cout << "Spotify Premium";
-        gotoxy(49, 4); color(BRIGHT_CYAN); cout << "Opciones para albumes";
+            gotoxy(45, 9);  cout << "1. Mostrar todos los albumes\n";
+            gotoxy(45, 11); cout << "2. Eliminar album por indice\n";
+            gotoxy(39, 13); cout << "3. Modificar nombre del album por indice\n";
+            gotoxy(48, 15); cout << "4. Crear Album/Playlist\n";
+            gotoxy(48, 17); cout << "5. Reproducir Playlist\n";
+            gotoxy(55, 19); cout << "ESC. Salir";
+            };
 
-        clearColor();
-
-        //Unica Columna
-        // el eje x de gotoxy es la mitad del ancho
-        // de pantalla menos la mitad del size de string
-        gotoxy(45, 9); cout << "1. Mostrar todos los albumes\n";
-        gotoxy(45, 11);cout << "2. Eliminar album por indice\n";
-        gotoxy(39, 13);cout << "3. Modificar nombre del album por indice\n";
-        gotoxy(48, 15);cout << "4. Crear Album/Playlist\n";
-        gotoxy(48, 17);cout << "5. Reproducir Playlist\n";
-        gotoxy(55, 19); cout << "ESC. Salir";
-
-
+        imprimirMenu(); // Llamar al lambda
     }
 
     void opcionesAlbumes() {

@@ -132,6 +132,7 @@
     <ClInclude Include="Cola.h" />
     <ClInclude Include="ColadeReproduccion.h" />
     <ClInclude Include="Controladora.h" />
+    <ClInclude Include="Hash.h" />
     <ClInclude Include="Historial.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="ListaDeAlbum.h" />

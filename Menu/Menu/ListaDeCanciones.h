@@ -142,6 +142,7 @@ public:
 	
 	}
 
+	// Devuleve un string
 	string getCancionXIndex(int index) {
 	
 		if (index > numCanciones || index < 1) {
@@ -173,6 +174,7 @@ public:
 	
 	}
 
+	// devuelve un objeto Cancion
 	Cancion* getCancionPorIndex(int index) {
 		if (index < 0 || index >= numCanciones) {
 			errorColor(); cout << "\nÍndice incorrecto\n"; clearColor();

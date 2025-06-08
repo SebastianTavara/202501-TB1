@@ -1,11 +1,12 @@
 #include "pch.h"
 #include "Controladora.h"
+#include "Hash.h"
 using namespace System;
 
 int main()
 {
     Introduccion intro;
-    Controladora sistema;
+    //Controladora sistema;
 
 
 
@@ -18,7 +19,8 @@ int main()
     intro.pintarUPC();
     _getch();
     clear();
-    sistema.menu();
+    Hash();
+   // sistema.menu();
     
     return 0;
 
